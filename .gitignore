@@ -1,0 +1,6 @@
+data/large_images/
+assets/
+*.pb
+code/code
+.vscode/
+.DS_Store

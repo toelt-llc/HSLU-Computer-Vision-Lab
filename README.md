@@ -28,19 +28,23 @@ For teaching staff, developing an EBL module helps to understand the learning pr
 
 ## Reading Material
 
-The project is described in detail in chapter 8 of the book "Advanced Applied Deep Learning" by Umberto Michelucci. The PDF of the book can be found on this page. In particular, read chapter 8 as it gives a good overview of the data and hints on how to solve the problem.
-Goal of the Project
+The project is described in detail in chapter 8 of the book "Advanced Applied Deep Learning" by Umberto Michelucci. The PDF of the book can be found in the ILIAS page of the course. In particular, read chapter 8 as it gives a good overview of the data and hints on how to solve the problem.
+
+## Goal of the Project
 
 The goal of this project, and your task, is to build a machine learning pipeline to identify microscope images with cancer cells in it. You will do it by using techniques that you have learned in the course. The goal is not to get the best model or the highest accuracy, but to get experience in dealing with real data and all the challenges assocaited with the use case.
-Data
+
+## Data
 
 This data set represents a collection of textures in histological images of human colorectal cancer. It contains two files:
 "Kather_texture_2016_image_tiles_5000.zip": a zipped folder containing 5000 histological images of 150 * 150 px each (74 * 74 µm). Each image belongs to exactly one of eight tissue categories (specified by the folder name).
 "Kather_texture_2016_larger_images_10.zip": a zipped folder containing 10 larger histological images of 5000 x 5000 px each. These images contain more than one tissue type.
-Image format
+
+## Image format
 
 All images are RGB, 0.495 µm per pixel, digitized with an Aperio ScanScope (Aperio/Leica biosystems), magnification 20x. Histological samples are fully anonymized images of formalin-fixed paraffin-embedded human colorectal adenocarcinomas (primary tumors) from our pathology archive (Institute of Pathology, University Medical Center Mannheim, Heidelberg University, Mannheim, Germany).
-Ethics statement
+
+## Ethics statement
 
 All experiments were approved by the institutional ethics board (medical ethics board II, University Medical Center Mannheim, Heidelberg University, Germany; approval 2015-868R-MA). The institutional ethics board waived the need for informed consent for this retrospective analysis of anonymized samples. All experiments were carried out in accordance with the approved guidelines and with the Declaration of Helsinki.
 

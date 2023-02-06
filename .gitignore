@@ -4,3 +4,4 @@ assets/
 code/code
 .vscode/
 .DS_Store
+*.pkl
